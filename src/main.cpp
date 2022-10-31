@@ -24,7 +24,7 @@ void loop()
     delay(500);
     Serial.println("proximity alert!");
     digitalWrite(pin11, LOW);
-    delay(500);
+    // delay(500);
   }
   else
   {
